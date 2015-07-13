@@ -58,6 +58,12 @@
             ReferencedContainer = "container:ReadAudioMetadata.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "~/Documents/GitHub/CoreAudio/ReadAudioMetadata/AuldLangSyne.m4a"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
