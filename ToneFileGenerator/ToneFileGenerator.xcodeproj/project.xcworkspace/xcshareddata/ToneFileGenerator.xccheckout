@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>F0C23859-5A2D-485B-B359-9CEDDD55FA7A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>ToneFileGenerator</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>3333D6FAA7AD7187617546B66FC56E7730DBDCC5</key>
 		<string>https://github.com/finesketch/CoreAudio.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ToneFileGenerator/ToneFileGenerator.xcodeproj/project.xcworkspace</string>
+	<string>ToneFileGenerator/ToneFileGenerator.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3333D6FAA7AD7187617546B66FC56E7730DBDCC5</key>
