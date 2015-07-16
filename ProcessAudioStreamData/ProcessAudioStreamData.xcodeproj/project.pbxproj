@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC0CFA861B57BAFC009C5736 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0CFA851B57BAFC009C5736 /* main.m */; };
+		DC0CFA8D1B57BC46009C5736 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC0CFA8C1B57BC46009C5736 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		DC0CFA821B57BAFC009C5736 /* ProcessAudioStreamData */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProcessAudioStreamData; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0CFA851B57BAFC009C5736 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC0CFA8C1B57BC46009C5736 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0CFA8D1B57BC46009C5736 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 		DC0CFA791B57BAFC009C5736 = {
 			isa = PBXGroup;
 			children = (
+				DC0CFA8E1B57BC4E009C5736 /* Frameworks */,
 				DC0CFA841B57BAFC009C5736 /* ProcessAudioStreamData */,
 				DC0CFA831B57BAFC009C5736 /* Products */,
 			);
@@ -60,6 +64,14 @@
 				DC0CFA851B57BAFC009C5736 /* main.m */,
 			);
 			path = ProcessAudioStreamData;
+			sourceTree = "<group>";
+		};
+		DC0CFA8E1B57BC4E009C5736 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CFA8C1B57BC46009C5736 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +247,7 @@
 				DC0CFA8B1B57BAFC009C5736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
